@@ -1,0 +1,245 @@
+#nav {
+    padding: 0px;
+    padding-left: 50px;
+    padding-bottom: 5px;
+    height: 70px;
+}
+
+#nombrepag {
+    color: white;
+    font-size: 17px;
+    margin-right: 250px;
+}
+
+.items {
+    text-decoration: none;
+    color: rgba(198, 194, 194, 0.804);
+    font-size: 14px;
+    margin: 7px;
+}
+
+#laconfe {
+    color: white;
+}
+
+#textoimg {
+    position: absolute;
+    top: 150px;
+    right: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    width: 450px;
+    color: white;
+    font-size: 14px;
+}
+
+#textoimg h1 {
+    font-size: 30px;
+}
+
+.carrousel {
+    filter: brightness(50%);
+    height: 450px;
+    width: 100%;
+}
+
+#botonescarrousel .trasparente {
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.868);
+    border: solid 2px rgba(255, 255, 255, 0.382);
+    border-radius: 4px;
+    height: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 7px;
+    font-size: 14px;
+
+}
+
+#botonescarrousel .verde {
+    background-color: rgba(32, 164, 36, 0.971);
+    color: rgba(255, 255, 255, 0.868);
+    border: transparent;
+    border-radius: 4px;
+    height: 35px;
+    padding-left: 13px;
+    padding-right: 13px;
+    font-size: 14px;
+
+
+}
+
+.hijo h3 {
+    color: gray;
+    margin-top: 12px;
+    margin-bottom: 1px;
+    font-size: 10px;
+    text-align: center;
+
+}
+
+.hijo h2 {
+    font-size: 23px;
+    margin-bottom: 0px;
+    text-align: center;
+
+}
+
+.cadacarta {
+    margin-top: 5px;
+}
+
+.cuerpocarta {
+    padding-top: 12px;
+}
+
+.padre {
+    display: flex;
+   justify-content: center;
+}
+
+
+.hijocartas {
+    width: 70%;
+}
+
+.imgcarta {
+    border-radius: 0px;
+}
+
+.botones {
+    height: 14px;
+    font-size: 9px;
+    color: white;
+    padding: 0px;
+    border-radius: 4px;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;  
+    font-weight: 700;
+}
+
+.botonjs {
+    color: black;
+}
+
+.botonreact {
+    background-color: rgb(46, 166, 175);
+}
+
+h5 {
+    font-size: 15px;
+}
+
+.pcarta {
+    font-size: 10px;
+}
+
+.honolulu {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    width: 100%;
+    background-color: rgb(53, 55, 64);
+    color: rgba(255, 255, 255, 0.771);
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 49%;
+    font-size: 11px;
+    padding: 11px;  
+    padding-top: 15px;
+    line-height: 1.7;
+}
+
+.texto h2 {
+    font-size: 20px;
+    color: white;
+}
+
+#conocemas {
+    width: 80px;
+    background-color: rgb(53, 55, 64);
+    border: solid rgba(255, 255, 255, 0.646) 1px;
+    border-radius: 2px;
+    color: rgba(255, 255, 255, 0.771);
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+#conviertete .padre .hijo h3 {
+    font-size: 9px;
+}
+
+#conviertete .padre .hijo p {
+    font-size: 12px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+#subrayar {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px dotted black;
+}
+
+.input {
+    width: 100%;
+    border:1px solid rgba(225, 220, 220, 0.863);
+    border-radius: 3px;
+    height: 95%;
+    font-size: 11px;
+    padding-left: 7px;
+}
+    
+
+textarea {
+    width: 100%;
+    border:1px solid rgba(225, 220, 220, 0.863);
+    border-radius: 3px;
+    padding-top: 7px;
+    padding-left: 11px;
+    margin-top: 10px;
+    height: 100%;
+}
+
+#formconv p {
+    margin-top: 15px;
+    color: rgba(120, 119, 119, 0.863);
+    font-size: 10px;
+}
+
+#enviar {
+    width: 100%;
+    background-color: rgb(133, 196, 39);
+    border: transparent;
+    color: white;
+    border-radius: 5px;
+    height: 130%;
+}
+
+footer {
+    height: 70px;
+    background-color: rgb(25, 74, 104);
+    margin-top: 20px;
+    background: linear-gradient(to right, rgb(17, 51, 72), rgb(28, 81, 114));
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+.itemsfoot {
+    margin-left: 45px;
+    padding: 0px;
+    padding-top: 13px;
+    align-self: center;
+    line-height: 1.2;
+
+}
