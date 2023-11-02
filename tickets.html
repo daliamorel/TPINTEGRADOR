@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilosTickets.css">
+    <title>Comprar tickets</title>
+</head>
+<body>
+    <!--comienzo de navbar-->
+    <nav id="nav" class="navbar navbar-expand-lg " style="background-color: #282a35e6;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="img/codoacodo.png" alt="Bootstrap" width="90" height="50">
+              </a>
+          <a id="nombrepag" class="navbar-brand" href="#">Conf Bs As</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse elnav" id="navbarNavAltMarkup">
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                   
+                  <li class="nav-item itempadre">
+                    <a class="items" id="laconfe" class="nav-link active" aria-current="page" href="#">La conferencia</a>
+                  </li>
+                  <li class="nav-item itempadre">
+                    <a class="items" class="nav-link" href="#">Los oradores</a>
+                  </li>
+                  <li class="nav-item itempadre">
+                    <a class="items" class="nav-link" href="#">El lugar y la fecha</a>
+                  </li>
+                  <li class="nav-item itempadre">
+                    <a class="items" class="nav-link" href="#">Conviértete en orador</a>
+                  </li>
+                  <li class="nav-item itempadre">
+                    <a class="items" class="nav-link" href="#" style="color: rgba(7, 172, 12, 0.971);">Comprar tickets</a>
+                  </li>
+                </ul>
+                
+              </div>
+          </div>
+        </div>
+      </nav>
+    <!--fin de navbar-->
+    <main>
+    <!--inicio tipos de tickets-->
+    <div class="container">
+        <div class="row">
+            <div class="col" style="padding: 0px;">
+                <div class="card border-primary mb-3 text-center descuentos" style="max-width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title titulodescuento">Estudiante</h5>
+                      <p class="card-text">Tienen un descuento</p>
+                      <h5 class="card-title porcentaje">80%</h5>
+                      <p class="card-text"><small class="text-muted">* presentar documentación</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="padding: 0px;">
+                <div class="card border-success mb-3 text-center descuentos" style="max-width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title titulodescuento">Trainee</h5>
+                      <p class="card-text">Tienen un descuento</p>
+                      <h5 class="card-title porcentaje">50%</h5>
+                      <p class="card-text"><small class="text-muted">* presentar documentación</small></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col" style="padding: 0px;">
+                <div class="card border-warning mb-3 text-center descuentos" style="max-width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title titulodescuento">Junior</h5>
+                      <p class="card-text">Tienen un descuento</p>
+                      <h5 class="card-title porcentaje">15%</h5>
+                      <p class="card-text"><small class="text-muted">* presentar documentación</small></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--fin tipos de tickets-->
+    <!--inicio formulario-->
+    <div class="text-center venta">
+        <p>VENTA</p>
+        <h1>VALOR DEL TICKET $200</h1>
+        <form action="">
+            <div class="row justify-content-between">
+                <div class="col"><input id="nombre" type="text" placeholder="Nombre" required></div>
+                <div class="col"><input id="apellido" type="text" placeholder="Apellido" required></div>
+            </div>
+            <div class="row"><input type="text" placeholder="Correo" id="correo"></div>
+            <div class="row">
+                <div class="col text-start"><p>Cantidad</p></div>
+                <div class="col text-start"><p>Categoria</p></div>
+            </div>
+            <div class="row">
+                <div class="col"><input type="number" placeholder="cantidad" id="cantidad"></div>
+                <div class="col">
+                    <select id="categoria">
+                        <option value="Estudiante">Estudiante</option>
+                        <option value="Trainee">Trainee</option>
+                        <option value="Junior">Junior</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row text-start" id="total"><p>Total a pagar: $</p></div>
+            <div class="row">
+                <div class="col"><input class="botones" type="reset" value="Borrar" id="borrar"></div>
+                <div class="col"><input class="botones" type="submit" value="Resumen" id="enviar"></div>
+            </div>
+        </form>
+    </div>
+    <!--fin formulario-->
+</main>
+    <!--comienzo footer-->
+    <footer>
+        <div class="container text-center">
+            <div class="row justify-content-center">
+              <div class="col-1 itemsfoot">
+                <a href="#">Preguntas frecuentes</a>
+              </div>
+              <div class="col-1 itemsfoot">
+                <a href="#">Contáctanos</a>
+              </div>
+              <div class="col-1 itemsfoot">
+                <a href="#">Prensa</a>
+              </div>
+              <div class="col-1 itemsfoot">
+                <a href="#">Conferencias</a>        
+              </div>
+              <div class="col-1 itemsfoot">
+                <a href="#">Términos y condiciones</a>
+              </div>
+              <div class="col-1 itemsfoot">
+                <a href="#">Privacidad</a>
+              </div>
+              <div class="col-1 itemsfoot">
+                <a href="#">Estudiantes</a>
+              </div>
+      
+            </div>
+        </div>
+    </footer>
+    <!--fin de footer-->     
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script> 
+        <script src="script.js"></script>
+</body>
+</html>
